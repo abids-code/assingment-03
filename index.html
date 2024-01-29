@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hockeys</title>
 
     <!-- Tailwind and DuisyUI CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
@@ -69,8 +69,8 @@
         </nav>
 
         <!-- Banner Section -->
-        <div class="container mx-auto">
-            <div class="carousel rounded-2xl w-full lg:h-[600px] z-10">
+        <div class="container mx-auto lg:relative">
+            <div class="carousel rounded-2xl w-full lg:h-[600px] z-10 relative">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="Images/1.png" class="w-full object-cover" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -94,8 +94,8 @@
                 </div>
             </div>
 
-            <div class="bg-[#131318] text-white rounded-2xl
-              p-8 flex flex-col lg:w-1/2 space-y-4">
+            <div class="bg-[#131318] text-white rounded-2xl mx-5 lg:mx-auto
+              p-8 flex flex-col lg:w-1/2 space-y-4 z-20 lg:absolute lg:right-0 lg:bottom-10">
                 <h3 class="text-2xl font-extrabold">Meet all the heroes from the field</h3>
                 <p class="text-[#FFFFFF99] text-base font-medium">Dive into the world of our hockey heroes. Meet the
                     players who define passion, skill, and team spirit on the field. Discover their stories, follow
@@ -108,7 +108,7 @@
     <main class="container mx-auto font-manrope">
 
         <!-- Professional Hockeys Club Section -->
-        <section class="my-24">
+        <section class="my-24 mx-5 lg:mx-auto">
 
             <!-- Section Header -->
             <div class="space-y-6 text-center">
@@ -156,12 +156,12 @@
         </section>
 
         <!-- Program Section -->
-        <section>
+        <section class="">
             <!-- Section Header -->
-            <div class="space-y-6 text-center mb-12">
+            <div class="space-y-6 text-center mb-12 mx-5 lg:mx-auto">
                 <hr class="border-b border-dashed border-[#13131833]" />
                 <h2 class="text-4xl text-[#131318] font-extrabold">Program Sections</h2>
-                <p class="text-base font-medium text-[#1313189] w-1/2 mx-auto ">Explore our diverse program section,
+                <p class="text-base font-medium text-[#1313189] lg:w-1/2 mx-auto ">Explore our diverse program section,
                     crafted for every level of play. From skill development to teamwork, our innovative initiatives pave
                     the way to hockey excellence for all enthusiasts.</p>
                 <hr class="border-b border-dashed border-[#13131833]" />
@@ -171,7 +171,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 text-white">
                 <!-- Card 1 -->
                 <div
-                    class="card bg-[linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(Images/2.png)] bg-cover w-full h-full bg-no-repeat p-10">
+                    class="bg-[linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(Images/2.png)] bg-cover w-full h-full bg-no-repeat p-10">
                     <div class="space-y-6 mt-14">
                         <h2 class="text-2xl font-extrabold">Junior Program</h2>
                         <p class="text-base font-medium">Ignite passion early. Our Junior Program nurtures young
@@ -183,7 +183,7 @@
                 </div>
                 <!-- Card 2 -->
                 <div
-                    class="card bg-[linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(Images/3.png)] bg-cover w-full h-full bg-no-repeat p-10">
+                    class="bg-[linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(Images/3.png)] bg-cover w-full lg:h-full bg-no-repeat p-10">
                     <div class="space-y-6 mt-14">
                         <h2 class="text-2xl font-extrabold">Teenager Program</h2>
                         <p class="text-base font-medium">Elevate skills in our Teenager Program. Tailored for growth, it
@@ -195,7 +195,7 @@
                 </div>
                 <!-- Card 3 -->
                 <div
-                    class="card bg-[linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(Images/4.png)] bg-cover w-full h-full bg-no-repeat p-10 col-span-2 ">
+                    class="bg-[linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(Images/4.png)] bg-cover w-screen lg:w-full lg:h-full bg-no-repeat p-10 lg:col-span-2 rounded-xl">
                     <div class="space-y-6 mt-40">
                         <h2 class="text-2xl font-extrabold">Professional Program</h2>
                         <p class="text-base font-medium w-5/12">For elite aspirations, join our Professional Program.
@@ -210,20 +210,20 @@
 
         <!-- Product Section -->
         <section class="my-24">
-            <div class="space-y-6 text-center mb-12">
+            <div class="space-y-6 text-center mb-12 mx-5 lg:mx-auto">
                 <hr class="border-b border-dashed border-[#13131833]" />
                 <h2 class="text-4xl text-[#131318] font-extrabold">Our New Products</h2>
-                <p class="text-base font-medium text-[#1313189] w-1/2 mx-auto ">Discover the future of hockey with our
+                <p class="text-base font-medium text-[#1313189] lg:w-1/2 mx-auto ">Discover the future of hockey with our
                     latest products, meticulously designed to elevate your game and redefine the on-ice experience.</p>
                 <hr class="border-b border-dashed border-[#13131833]" />
             </div>
 
             <!-- Shopping Card Section -->
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mx-5 lg:mx-auto">
                 <!-- product one -->
-                <div class="card bg-white border border-[#1313181A] rounded-2xl p-6 flex flex-row gap-2 items-center">
-                    <div class="w-2/3">
-                        <img src="Images/5.png" alt="">
+                <div class=" bg-white border border-[#1313181A] rounded-2xl p-6 flex flex-col lg:flex-row gap-5 items-center">
+                    <div class="lg:w-2/3">
+                        <img class="w-screen" src="Images/5.png" alt="">
                     </div>
                     <div class="space-y-2">
                         <p class="space-x-4 text-[#13131880]">
@@ -244,9 +244,9 @@
                     </div>
                 </div>
                 <!-- product Two -->
-                <div class="card bg-white border border-[#1313181A] rounded-2xl p-6 flex flex-row gap-2 items-center">
-                    <div class="w-2/3">
-                        <img src="Images/6.png" alt="">
+                <div class="card bg-white border border-[#1313181A] rounded-2xl p-6 flex flex-col lg:flex-row gap-5 items-center">
+                    <div class="lg:w-2/3">
+                        <img class="w-screen" src="Images/6.png" alt="">
                     </div>
                     <div class="space-y-2">
                         <p class="space-x-4 text-[#13131880]">
@@ -267,9 +267,9 @@
                     </div>
                 </div>
                 <!-- product Three -->
-                <div class="card bg-white border border-[#1313181A] rounded-2xl p-6 flex flex-row gap-2 items-center">
-                    <div class="w-2/3">
-                        <img src="Images/7.png" alt="">
+                <div class="card bg-white border border-[#1313181A] rounded-2xl p-6 flex flex-col lg:flex-row gap-5 items-center">
+                    <div class="lg:w-2/3">
+                        <img class="w-screen" src="Images/7.png" alt="">
                     </div>
                     <div class="space-y-2">
                         <p class="space-x-4 text-[#13131880]">
@@ -290,9 +290,9 @@
                     </div>
                 </div>
                 <!-- product Four -->
-                <div class="card bg-white border border-[#1313181A] rounded-2xl p-6 flex flex-row gap-5 items-center">
-                    <div class="w-2/3">
-                        <img src="Images/8.png" alt="">
+                <div class="card bg-white border border-[#1313181A] rounded-2xl p-6 flex flex-col lg:flex-row gap-5 items-center">
+                    <div class="lg:w-2/3">
+                        <img class="w-screen" src="Images/8.png" alt="">
                     </div>
                     <div class="space-y-2">
                         <p class="space-x-4 text-[#13131880]">
@@ -313,9 +313,9 @@
                     </div>
                 </div>
                 <!-- product five -->
-                <div class="card bg-white border border-[#1313181A] rounded-2xl p-6 flex flex-row gap-5 items-center">
-                    <div class="w-2/3">
-                        <img src="Images/9.png" alt="">
+                <div class="card bg-white border border-[#1313181A] rounded-2xl p-6 flex flex-col lg:flex-row gap-5 items-center">
+                    <div class="lg:w-2/3">
+                        <img class="w-screen" src="Images/9.png" alt="">
                     </div>
                     <div class="space-y-2">
                         <p class="space-x-4 text-[#13131880]">
@@ -336,9 +336,9 @@
                     </div>
                 </div>
                 <!-- product six -->
-                <div class="card bg-white border border-[#1313181A] rounded-2xl p-6 flex flex-row gap-5 items-center">
-                    <div class="w-2/3">
-                        <img src="Images/10.png" alt="">
+                <div class="card bg-white border border-[#1313181A] rounded-2xl p-6 flex flex-cols lg:flex-row gap-5 items-center">
+                    <div class="lg:w-2/3">
+                        <img class="w-screen" src="Images/10.png" alt="">
                     </div>
                     <div class="space-y-2">
                         <p class="space-x-4 text-[#13131880]">
@@ -366,14 +366,14 @@
             <div class="space-y-6 text-center mb-12">
                 <hr class="border-b border-dashed border-[#13131833]" />
                 <h2 class="text-4xl text-[#131318] font-extrabold">Clients Question</h2>
-                <p class="text-base font-medium text-[#1313189] w-1/2 mx-auto ">Unlock insights in our 'Clients'
+                <p class="text-base font-medium text-[#1313189] lg:w-1/2 mx-auto ">Unlock insights in our 'Clients'
                     Questions' corner—a curated space where inquiries meet tailored solutions, providing a unique peek
                     into our commitment to client satisfaction.</p>
                 <hr class="border-b border-dashed border-[#13131833]" />
             </div>
 
-            <div class="flex items-center border border-[#1313181A] rounded-2xl p-8">
-                <div class="w-3/4">
+            <div class="flex flex-col lg:flex-row gap-3 items-center border border-[#1313181A] rounded-2xl p-8">
+                <div class="lg:w-3/4">
                     <img class="" src="Images/11.png" alt="">
                 </div>
                 <div class="space-y-2">
@@ -454,18 +454,18 @@
         </section>
 
         <!-- Get In Touch Section -->
-        <section class="my-24">
+        <section class="my-24 mx-5 lg:mx-auto">
             <div class="space-y-6 text-center mb-12">
                 <hr class="border-b border-dashed border-[#13131833]" />
                 <h2 class="text-4xl text-[#131318] font-extrabold">Get In Touch</h2>
-                <p class="text-base font-medium text-[#1313189] w-1/2 mx-auto ">Reach out easily. Our 'Get in Touch'
+                <p class="text-base font-medium text-[#1313189] lg:w-1/2 mx-auto ">Reach out easily. Our 'Get in Touch'
                     section ensures quick and personalized assistance for all your inquiries. Connect with us for a
                     seamless experience.</p>
                 <hr class="border-b border-dashed border-[#13131833]" />
             </div>
 
-            <div class="flex gap-6">
-                <div class="grid grid-cols-1 gap-6 border border-[#1313181A] rounded-2xl p-12 w-5/12">
+            <div class="flex flex-col lg:flex-row gap-6">
+                <div class="grid grid-cols-1 gap-6 border border-[#1313181A] rounded-2xl p-5 lg:p-12 lg:w-5/12">
                     <div class="bg-[#bced6e1a] rounded-2xl p-8 space-y-4">
                         <img src="Images/Group 1171275317.png" alt="">
                         <div>
@@ -491,14 +491,15 @@
 
                 <!-- Newsletter Section -->
                 <div class="w-full">
-                    <form class="">
-                        <div class="flex gap-6 justify-between mb-6">
+                    <form class="mx-5 lg:mx-auto">
+                        <div class="flex flex-col lg:flex-row gap-6 justify-between mb-6">
                             <div class="w-full md:w-1/2 space-y-3">
                                 <label class=" text-[#131318] text-base font-bold">
                                     Your Name
                                 </label>
                                 <input
-                                    class="appearance-none block w-full bg-[#13131805] text-[#1313184D] rounded-xl p-5 type="text" placeholder="Enter your full name">
+                                    class="appearance-none block w-full bg-[#13131805] text-[#1313184D] rounded-xl p-5 type="
+                                    text" placeholder="Enter your full name">
                             </div>
                             <div class="w-full md:w-1/2 space-y-3">
                                 <label class=" text-[#131318] text-base font-bold mb-2" for="grid-first-name">
@@ -509,7 +510,7 @@
                                     grid-first-name" type="text" placeholder="Enter your email">
                             </div>
                         </div>
-                        <div class="flex gap-6 justify-between mb-6">
+                        <div class="flex flex-col lg:flex-row gap-6 justify-between mb-6">
                             <div class="w-full md:w-1/2 space-y-3">
                                 <label class=" text-[#131318] text-base font-bold mb-2" for="grid-first-name">
                                     Subject
@@ -531,10 +532,13 @@
                             <label class=" text-[#131318] text-base font-bold mb-2" for="grid-first-name">
                                 Message
                             </label>
-                            <textarea id="message" rows="12" class="block w-full bg-[#13131805] text-[#1313184D] rounded-xl p-5 mb-3" placeholder="Write your message"> 
+                            <textarea id="message" rows="12"
+                                class="block w-full bg-[#13131805] text-[#1313184D] rounded-xl p-5 mb-3"
+                                placeholder="Write your message">
                             </textarea>
                         </div>
-                        <button class="text-[white] text-xl font-bold p-2 w-full bg-[#FF4240] rounded-xl mt-8">Send Message</button>
+                        <button class="text-[white] text-xl font-bold p-2 w-full bg-[#FF4240] rounded-xl mt-8">Send
+                            Message</button>
                     </form>
                 </div>
             </div>
@@ -561,8 +565,42 @@
         </section>
 
     </main>
-    <footer class="font-manrope">
-        
+
+    <footer class="grid grid-cols-1 lg:grid-cols-10 text-center lg:text-left gap-24 p-5 lg:p-24 bg-[#131318] font-manrope mt-24">
+        <aside class="space-y-3 col-span-4">
+            <h1 class="text-white text-2xl font-extrabold">Get In Touch</h1>
+            <p class="text-[#ffffff99] text-base font-medium">Explore more, stay connected. Navigate our world with
+                quick links and updates in the footer.</p>
+            <p class="text-[#ffffffcc] text-base font-medium">
+                <i class="fa-regular fa-envelope text-[#FF4240] mr-2"></i> hockeys@support.com
+            </p>
+            <p class="text-[#ffffffcc] text-base font-medium">
+                <i class="fa-solid fa-phone text-[#FF4240] mr-2"></i> (+62) 123-321-543
+            </p>
+        </aside>
+        <nav class="col-span-2 grid grid-cols-1 text-[#ffffff99] space-y-3">
+            <h6 class="text-white font-base font-bold mb-5">Company</h6>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Leadership</a>
+            <a class="link link-hover">Careers</a>
+            <a class="link link-hover">News & Article</a>
+            <a class="link link-hover">Legal Notice</a>
+        </nav>
+        <nav class="col-span-2 grid grid-cols-1 text-[#ffffff99] space-y-3">
+            <h6 class="text-white font-base font-bold mb-5">Support</h6>
+            <a class="link link-hover">Help Center</a>
+            <a class="link link-hover">FAQ</a>
+            <a class="link link-hover">Ticket Support</a>
+            <a class="link link-hover">Contact Us</a>
+        </nav>
+        <nav class="col-span-4 lg:col-span-2 grid grid-cols-1 text-[#ffffff99] space-y-3">
+            <h6 class="text-white font-base font-bold mb-5">Services</h6>
+            <a class="link link-hover">Academy</a>
+            <a class="link link-hover">Group Lesson</a>
+            <a class="link link-hover">Private Lesson</a>
+            <a class="link link-hover">Hockeys for kids</a>
+            <a class="link link-hover">Hockeys for Adult</a>
+        </nav>
     </footer>
 </body>
 

@@ -41,19 +41,20 @@
                             </svg>
                         </div>
                         <ul tabindex="0"
-                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            class="menu bg-black menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+
                             <li><a class="text-[#FF4240]">Home</a></li>
-                            <li><a>About</a></li>
-                            <li><a>Pages</a></li>
-                            <li><a>Blog</a></li>
-                            <li><a>Contact</a></li>
+                            <li><a class="text-white">About</a></li>
+                            <li><a class="text-white">Pages</a></li>
+                            <li><a class="text-white">Blog</a></li>
+                            <li><a class="text-white">Contact</a></li>
                         </ul>
                     </div>
                     <h1 class="text-[#131318] text-4xl font-extrabold
                     ">Hockey<span class="text-[#FF4240]">'</span>s</h1>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1 text-[#424247] font-normal text-base">
+                    <ul class="menu menu-horizontal px-1 font-normal text-base">
                         <li><a class="text-[#FF4240]">Home</a></li>
                         <li><a>About</a></li>
                         <li><a>Pages</a></li>
@@ -69,8 +70,8 @@
         </nav>
 
         <!-- Banner Section -->
-        <div class="container mx-auto lg:relative">
-            <div class="carousel rounded-2xl w-full lg:h-[600px] z-10 relative">
+        <div class="container mx-auto lg:relative ">
+            <div class="carousel rounded-2xl w-full lg:h-[600px] relative">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="Images/1.png" class="w-full object-cover" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -171,7 +172,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 text-white">
                 <!-- Card 1 -->
                 <div
-                    class="bg-[linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(Images/2.png)] bg-cover w-full h-full bg-no-repeat p-10">
+                    class="bg-[linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(Images/2.png)] rounded-xl bg-cover w-11/12 mx-auto lg:w-full h-full bg-no-repeat p-10">
                     <div class="space-y-6 mt-14">
                         <h2 class="text-2xl font-extrabold">Junior Program</h2>
                         <p class="text-base font-medium">Ignite passion early. Our Junior Program nurtures young
@@ -183,7 +184,7 @@
                 </div>
                 <!-- Card 2 -->
                 <div
-                    class="bg-[linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(Images/3.png)] bg-cover w-full lg:h-full bg-no-repeat p-10">
+                    class="bg-[linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(Images/3.png)] rounded-xl bg-cover w-11/12 mx-auto lg:w-full h-full bg-no-repeat p-10">
                     <div class="space-y-6 mt-14">
                         <h2 class="text-2xl font-extrabold">Teenager Program</h2>
                         <p class="text-base font-medium">Elevate skills in our Teenager Program. Tailored for growth, it
@@ -195,10 +196,11 @@
                 </div>
                 <!-- Card 3 -->
                 <div
-                    class="bg-[linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(Images/4.png)] bg-cover w-screen lg:w-full lg:h-full bg-no-repeat p-10 lg:col-span-2 rounded-xl">
-                    <div class="space-y-6 mt-40">
+                    class="bg-[linear-gradient(45deg,rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(Images/4.png)] bg-center mx-auto bg-cover w-11/12 lg:w-full h-full bg-no-repeat p-10 lg:col-span-2 rounded-xl">
+                    <div class="space-y-6 mt-14 lg:mt-40">
                         <h2 class="text-2xl font-extrabold">Professional Program</h2>
-                        <p class="text-base font-medium w-5/12">For elite aspirations, join our Professional Program.
+                        <p class="text-base font-medium w-full lg:w-5/12">For elite aspirations, join our Professional
+                            Program.
                             Designed for champions, it refines skills, instills strategic mastery, and propels players
                             to the pinnacle of hockey success.</p>
                         <button class="bg-[#FF4240] text-white py-2 px-6 rounded-lg font-bold text-xl">Register
@@ -213,7 +215,8 @@
             <div class="space-y-6 text-center mb-12 mx-5 lg:mx-auto">
                 <hr class="border-b border-dashed border-[#13131833]" />
                 <h2 class="text-4xl text-[#131318] font-extrabold">Our New Products</h2>
-                <p class="text-base font-medium text-[#1313189] lg:w-1/2 mx-auto ">Discover the future of hockey with our
+                <p class="text-base font-medium text-[#1313189] lg:w-1/2 mx-auto ">Discover the future of hockey with
+                    our
                     latest products, meticulously designed to elevate your game and redefine the on-ice experience.</p>
                 <hr class="border-b border-dashed border-[#13131833]" />
             </div>
@@ -221,7 +224,8 @@
             <!-- Shopping Card Section -->
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mx-5 lg:mx-auto">
                 <!-- product one -->
-                <div class=" bg-white border border-[#1313181A] rounded-2xl p-6 flex flex-col lg:flex-row gap-5 items-center">
+                <div
+                    class=" bg-white border border-[#1313181A] rounded-2xl p-6 flex flex-col lg:flex-row gap-5 items-center">
                     <div class="lg:w-2/3">
                         <img class="w-screen" src="Images/5.png" alt="">
                     </div>
@@ -244,7 +248,8 @@
                     </div>
                 </div>
                 <!-- product Two -->
-                <div class="card bg-white border border-[#1313181A] rounded-2xl p-6 flex flex-col lg:flex-row gap-5 items-center">
+                <div
+                    class="card bg-white border border-[#1313181A] rounded-2xl p-6 flex flex-col lg:flex-row gap-5 items-center">
                     <div class="lg:w-2/3">
                         <img class="w-screen" src="Images/6.png" alt="">
                     </div>
@@ -267,7 +272,8 @@
                     </div>
                 </div>
                 <!-- product Three -->
-                <div class="card bg-white border border-[#1313181A] rounded-2xl p-6 flex flex-col lg:flex-row gap-5 items-center">
+                <div
+                    class="card bg-white border border-[#1313181A] rounded-2xl p-6 flex flex-col lg:flex-row gap-5 items-center">
                     <div class="lg:w-2/3">
                         <img class="w-screen" src="Images/7.png" alt="">
                     </div>
@@ -290,7 +296,8 @@
                     </div>
                 </div>
                 <!-- product Four -->
-                <div class="card bg-white border border-[#1313181A] rounded-2xl p-6 flex flex-col lg:flex-row gap-5 items-center">
+                <div
+                    class="card bg-white border border-[#1313181A] rounded-2xl p-6 flex flex-col lg:flex-row gap-5 items-center">
                     <div class="lg:w-2/3">
                         <img class="w-screen" src="Images/8.png" alt="">
                     </div>
@@ -313,7 +320,8 @@
                     </div>
                 </div>
                 <!-- product five -->
-                <div class="card bg-white border border-[#1313181A] rounded-2xl p-6 flex flex-col lg:flex-row gap-5 items-center">
+                <div
+                    class="card bg-white border border-[#1313181A] rounded-2xl p-6 flex flex-col lg:flex-row gap-5 items-center">
                     <div class="lg:w-2/3">
                         <img class="w-screen" src="Images/9.png" alt="">
                     </div>
@@ -336,7 +344,8 @@
                     </div>
                 </div>
                 <!-- product six -->
-                <div class="card bg-white border border-[#1313181A] rounded-2xl p-6 flex flex-cols lg:flex-row gap-5 items-center">
+                <div
+                    class="card bg-white border border-[#1313181A] rounded-2xl p-6 flex flex-cols lg:flex-row gap-5 items-center">
                     <div class="lg:w-2/3">
                         <img class="w-screen" src="Images/10.png" alt="">
                     </div>
@@ -502,7 +511,7 @@
                                     text" placeholder="Enter your full name">
                             </div>
                             <div class="w-full md:w-1/2 space-y-3">
-                                <label class=" text-[#131318] text-base font-bold mb-2" for="grid-first-name">
+                                <label class=" text-[#131318] text-base font-bold mb-2">
                                     Your Email
                                 </label>
                                 <input
@@ -512,7 +521,7 @@
                         </div>
                         <div class="flex flex-col lg:flex-row gap-6 justify-between mb-6">
                             <div class="w-full md:w-1/2 space-y-3">
-                                <label class=" text-[#131318] text-base font-bold mb-2" for="grid-first-name">
+                                <label class=" text-[#131318] text-base font-bold mb-2">
                                     Subject
                                 </label>
                                 <input
@@ -520,7 +529,7 @@
                                     grid-first-name" type="text" placeholder="Enter your subject">
                             </div>
                             <div class="w-full md:w-1/2 space-y-3">
-                                <label class=" text-[#131318] text-base font-bold mb-2" for="grid-first-name">
+                                <label class=" text-[#131318] text-base font-bold mb-2">
                                     Phone Number
                                 </label>
                                 <input
@@ -529,7 +538,7 @@
                             </div>
                         </div>
                         <div class="w-full space-y-3">
-                            <label class=" text-[#131318] text-base font-bold mb-2" for="grid-first-name">
+                            <label class=" text-[#131318] text-base font-bold mb-2">
                                 Message
                             </label>
                             <textarea id="message" rows="12"
@@ -566,7 +575,8 @@
 
     </main>
 
-    <footer class="grid grid-cols-1 lg:grid-cols-10 text-center lg:text-left gap-24 p-5 lg:p-24 bg-[#131318] font-manrope mt-24">
+    <footer
+        class="grid grid-cols-1 lg:grid-cols-10 text-center lg:text-left gap-24 p-5 lg:p-24 bg-[#131318] font-manrope mt-24">
         <aside class="space-y-3 col-span-4">
             <h1 class="text-white text-2xl font-extrabold">Get In Touch</h1>
             <p class="text-[#ffffff99] text-base font-medium">Explore more, stay connected. Navigate our world with
@@ -603,4 +613,5 @@
         </nav>
     </footer>
 </body>
+
 </html>
